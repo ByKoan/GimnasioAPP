@@ -39,5 +39,8 @@
     "repesHechas": "Reps done",
     "nuevoDia": "Choose new day",
     "misDatos": "My Data",
-    "datosGuardados": "Data saved"
+    "datosGuardados": "Data saved",
+    "nuevaRutina": "New Routine",
+    "nombreRutina": "Routine Name",
+    "seleccionaDia": "Select Day"
 }

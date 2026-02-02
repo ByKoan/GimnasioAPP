@@ -39,5 +39,8 @@
     "repesHechas": "Repes hechas",
     "nuevoDia": "Elige el nuevo día",
     "misDatos": "Mis Datos",
-    "datosGuardados": "Datos guardados"
+    "datosGuardados": "Datos guardados",
+    "nuevaRutina": "Nueva Rutina",
+    "nombreRutina": "Nombre de la rutina",
+    "seleccionaDia": "Selecciona el día"
 }

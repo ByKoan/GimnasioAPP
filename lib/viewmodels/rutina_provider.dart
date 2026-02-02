@@ -226,8 +226,12 @@ class RutinaProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> agregarRutina(Rutina r) async {
-    await _database!.insert('rutinas', r.toMap());
+  Future<void> agregarRutina(String nombre, String diaSemana) async {
+    if (_database == null) return;
+    await _database!.insert('rutinas', {
+      'nombre': nombre,
+      'dia_semana': diaSemana,
+    });
     await cargarRutinas();
   }
 

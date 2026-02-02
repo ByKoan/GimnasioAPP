@@ -343,6 +343,24 @@ abstract class AppLocalizations {
   /// In es, this message translates to:
   /// **'Datos guardados'**
   String get datosGuardados;
+
+  /// No description provided for @nuevaRutina.
+  ///
+  /// In es, this message translates to:
+  /// **'Nueva Rutina'**
+  String get nuevaRutina;
+
+  /// No description provided for @nombreRutina.
+  ///
+  /// In es, this message translates to:
+  /// **'Nombre de la rutina'**
+  String get nombreRutina;
+
+  /// No description provided for @seleccionaDia.
+  ///
+  /// In es, this message translates to:
+  /// **'Selecciona el día'**
+  String get seleccionaDia;
 }
 
 class _AppLocalizationsDelegate

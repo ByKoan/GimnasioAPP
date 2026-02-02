@@ -132,4 +132,13 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get datosGuardados => 'Datos guardados';
+
+  @override
+  String get nuevaRutina => 'Nueva Rutina';
+
+  @override
+  String get nombreRutina => 'Nombre de la rutina';
+
+  @override
+  String get seleccionaDia => 'Selecciona el día';
 }
