@@ -4,12 +4,27 @@ import 'package:shared_preferences/shared_preferences.dart';
 class ThemeProvider extends ChangeNotifier {
   final String _key = 'isDark';
   bool _isDark = false;
+  double _textScale = 1.0;
+  double get textScale => _textScale;
+  Locale _locale = const Locale('es');
+  Locale get locale => _locale;
 
   bool get isDark => _isDark;
   ThemeMode get themeMode => _isDark ? ThemeMode.dark : ThemeMode.light;
 
   ThemeProvider() {
     _loadFromPrefs();
+  }
+
+  void setTextScale(double value) {
+    _textScale = value;
+    notifyListeners();
+  }
+
+  void setLocale(Locale loc) {
+    if (_locale == loc) return;
+    _locale = loc;
+    notifyListeners();
   }
 
   Future<void> _loadFromPrefs() async {
